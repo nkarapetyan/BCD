@@ -1,0 +1,10 @@
+[100%] Built target Leo
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/Leo/libLeo.so
+-- Up-to-date: /usr/local/include/Leo
+-- Up-to-date: /usr/local/include/Leo/RegionData.h
+-- Up-to-date: /usr/local/include/Leo/Point2D.h
+-- Up-to-date: /usr/local/include/Leo/ReebGraph.h
+-- Installing: /usr/lib/cmake/Leo/LeoConfig.cmake
+-- Installing: /etc/ld.so.conf.d/Leo.conf

@@ -1,0 +1,7 @@
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/install.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/list_install_components.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/rebuild_cache.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/Boustrophedon.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/install/strip.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/install/local.dir
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/edit_cache.dir

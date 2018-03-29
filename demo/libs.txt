@@ -1,0 +1,8 @@
+LIBS += `pkg-config opencv --libs` -lboost_filesystem -lboost_system -lglpk -lboost_thread
+ 
+LIBS += -L/usr/local/lib/Boustrophedon -lBoustrophedon
+INCLUDEPATH +=  /usr/local/include/Boustrophedon
+
+LIBS += -L/usr/local/lib/Leo -lLeo
+INCLUDEPATH +=  /usr/local/include/Leo
+

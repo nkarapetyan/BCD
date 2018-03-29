@@ -1,0 +1,50 @@
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   date_time
+--   graph
+--   filesystem
+--   system
+--   thread
+--   chrono
+--   atomic
+-- START INCLUDE_DIRECTORIES
+--   dir='/usr/local/include/opencv'
+--   dir='/usr/local/include'
+--   dir='/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/include'
+--   dir='/usr/local/include/opencv'
+--   dir='/usr/local/include'
+--   dir='/usr/include'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtConcurrent'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtGui'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtWidgets'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtGui'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtTest'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include/x86_64-linux-gnu/qt5'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtOpenGL'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtWidgets'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtGui'
+--   dir='/usr/include/x86_64-linux-gnu/qt5/QtCore'
+--   dir='/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64'
+--   dir='/usr/include'
+--   dir='/usr/local/include/Leo'
+-- END INCLUDE_DIRECTORIES
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs

@@ -23,20 +23,21 @@ and the header files in /usr/local/include/Boustrophedon
 ______
 ## Methods
 ----------------------
-*  BCD(string directory, string fileName, RegionData& data, ReebGraph& graph);
+### BCD(string directory, string fileName, RegionData& data, ReebGraph& graph);
 
-Parametrized constructor that takes in input binray image and name of the directory
-----------------------
-* void buildBCD(RegionData& data, ReebGraph& graph);
 
-Runs Boustrophedon algorithm and creats ReebGraph 
+- Parametrized constructor that takes in input binray image and name of the directory
 ----------------------
-* void viewReebGraph(QString fileName, RegionData data, ReebGraph graph);
+### void buildBCD(RegionData& data, ReebGraph& graph);
+
+- Runs Boustrophedon algorithm and creats ReebGraph 
+----------------------
+### void viewReebGraph(QString fileName, RegionData data, ReebGraph graph);
   
-Method draws the given ReebGraph. The methods used here each draw over
+- Method draws the given ReebGraph. The methods used here each draw over
   the image buffer.
 ----------------------
-* void printBCDInfo(ReebGraph graph);
+### void printBCDInfo(ReebGraph graph);
 
 -  Method that prints the general information of a given reeb graph such as its edges and vertices.
 ----------------------

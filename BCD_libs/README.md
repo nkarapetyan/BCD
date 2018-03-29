@@ -1,4 +1,4 @@
-##About
+## About
 
 This is BCD library that provides following classes:
 - BCD

@@ -1,10 +1,13 @@
-##About
+## About
+
+This is implementation of Boustrophedon Decompotion algorithm. 
+It includes separated utility library and a demo with sample usage.
 ______
 
 ## Structure:
  
-*   BCD/  - Boustrophedon Decomposition Algorithm Implementation
-*  LeoLibs/ - utility class implementing ReebGraph
+* BCD/  - Boustrophedon Decomposition Algorithm Implementation
+* LeoLibs/ - utility class implementing ReebGraph
 * demo/ - contains and example use of BCD
 
 ______

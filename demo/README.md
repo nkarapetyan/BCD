@@ -23,7 +23,7 @@ $INSTALL_DIR/demo/demo $[IMAGE_DIR] $[IMAGE_NAME]
 
 #### Example:
 
-./demo/demo demo/inputs Compare_1.png
+\./demo/demo demo/inputs Compare_1.png
 ---------------
 
 

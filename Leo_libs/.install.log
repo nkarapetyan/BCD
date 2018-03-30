@@ -6,5 +6,5 @@ Install the project...
 -- Up-to-date: /usr/local/include/Leo/RegionData.h
 -- Up-to-date: /usr/local/include/Leo/Point2D.h
 -- Up-to-date: /usr/local/include/Leo/ReebGraph.h
--- Installing: /usr/lib/cmake/Leo/LeoConfig.cmake
--- Installing: /etc/ld.so.conf.d/Leo.conf
+-- Up-to-date: /usr/lib/cmake/Leo/LeoConfig.cmake
+-- Up-to-date: /etc/ld.so.conf.d/Leo.conf

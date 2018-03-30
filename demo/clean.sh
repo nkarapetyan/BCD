@@ -11,7 +11,7 @@ echo rm -rf CMakeFiles
 rm -rf CMakeFiles
 
 echo rm -f *.pro UseLibs
-rm -f *.pro UseLibs
+rm -f *.pro demo
 
 echo rm -f .qmake1.log .qmake2.log .qmake3.log .make.log .ldconfig.log
 rm -f .qmake1.log .qmake2.log .qmake3.log .make.log .ldconfig.log

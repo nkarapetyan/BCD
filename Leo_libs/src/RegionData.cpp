@@ -16,9 +16,9 @@
 void RegionData::loadWorld(string filename) throw (const std::string&)
 {
 
-//N: DEBUG
-std::cerr << "HHHHHHHHHHHHHHLOADWORLD --> " << filename << std::endl;
-//N: DEBUG
+//DEBUG
+//std::cerr << "CHECK FILENAME --> " << filename << std::endl;
+//DEBUG
     // Parse the filename to obtain base dir & file name (i.e. w/o extension)
     string dir, fileHeader, imageExtension;
     string imageFilename, mapFilename, worldFilename;

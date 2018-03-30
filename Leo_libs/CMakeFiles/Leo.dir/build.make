@@ -183,6 +183,10 @@ libLeo.so: /usr/local/lib/libopencv_objdetect.a
 libLeo.so: /usr/local/lib/libopencv_highgui.a
 libLeo.so: /usr/local/lib/libopencv_imgproc.a
 libLeo.so: /usr/local/lib/libopencv_core.a
+libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Concurrent.so.5.5.1
+libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.5.1
+libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Test.so.5.5.1
+libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
 libLeo.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 libLeo.so: /usr/lib/x86_64-linux-gnu/libpng.so
 libLeo.so: /usr/lib/x86_64-linux-gnu/libtiff.so
@@ -202,10 +206,6 @@ libLeo.so: /usr/lib/x86_64-linux-gnu/libIex.so
 libLeo.so: /usr/lib/x86_64-linux-gnu/libHalf.so
 libLeo.so: /usr/lib/x86_64-linux-gnu/libIlmThread.so
 libLeo.so: /usr/lib/x86_64-linux-gnu/libz.so
-libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Test.so.5.5.1
-libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Concurrent.so.5.5.1
-libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.5.1
-libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.5.1
 libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.5.1
 libLeo.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.5.1
 libLeo.so: /usr/lib/x86_64-linux-gnu/libGLU.so

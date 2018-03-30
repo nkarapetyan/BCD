@@ -18,7 +18,7 @@ BCD::BCD() {};
  * Constructor that takes in input image directory name and filename
  *
 **/
-BCD(string directory, string fileName)
+BCD::BCD(string directory, string fileName)
 {
 //TODO: implement independent constructor based on input data
 }

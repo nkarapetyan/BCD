@@ -20,7 +20,7 @@ ______
 ______
 ## Installation
 
-* to build library do ./run_all
+* to build library and demo do ./run_all
 * to install do sudo ./run install
 
 this will compile and install LibLeo and BCD libraries

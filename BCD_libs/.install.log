@@ -3,8 +3,8 @@ Install the project...
 -- Install configuration: ""
 -- Installing: /usr/local/lib/Boustrophedon/libBoustrophedon.so
 -- Up-to-date: /usr/local/include/Boustrophedon
--- Installing: /usr/local/include/Boustrophedon/DrawImage.h
--- Installing: /usr/local/include/Boustrophedon/BCD.h
--- Installing: /usr/local/include/Boustrophedon/OpenImage.h
+-- Up-to-date: /usr/local/include/Boustrophedon/DrawImage.h
+-- Up-to-date: /usr/local/include/Boustrophedon/BCD.h
+-- Up-to-date: /usr/local/include/Boustrophedon/OpenImage.h
 -- Up-to-date: /usr/lib/cmake/Boustrophedon/BoustrophedonConfig.cmake
 -- Up-to-date: /etc/ld.so.conf.d/Boustrophedon.conf

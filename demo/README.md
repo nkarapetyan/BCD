@@ -21,9 +21,13 @@ Go to INSTALL_DIR where the demo is located and run:
 
 $INSTALL_DIR/demo/demo $[IMAGE_DIR] $[IMAGE_NAME]
 
+
+As a result you will see on the terminal complete information on Reeb Graph. In addition the decomposition result is saved in [IMAGE_DIR] with name {out_}[IMAGE_NAME] file.
 #### Example:
 
-- ./demo/demo demo/inputs Compare_1.png
+- demo inputs/ img.png
+
+- Note: Each input image should have .wf and .map.png files as well.
 ---------------
 
 

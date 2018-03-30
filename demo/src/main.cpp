@@ -1,4 +1,8 @@
-#include "main.h"
+#include <Boustrophedon/BCD.h>
+#include <Boustrophedon/DrawImage.h>
+#include <Leo/Point2D.h>
+#include <Leo/ReebGraph.h>
+#include <Leo/RegionData.h>
 
 int parseInputArgs(int argc, char **argv, std::string& directory,
         std::string& image);
@@ -28,14 +32,14 @@ int main(int argc, char **argv)
     BCD bcd(directory, image, data, graph);
     try{
 	    bcd.buildBCD(data, graph);
-	    QString fileName = QString::fromStdString(directory+"/"+image);
+	    QString fileName = QString::fromStdString(directory+"out_"+image);
 	    bcd.viewReebGraph(fileName, data, graph);
 	    std::cout << "\n-----------Reeb Graph Info:--------------\n";
 	    bcd.printBCDInfo(graph);
 	    std::cout << "\n-----------------------------------------\n";
     }
     catch (std::invalid_argument ia) {
-	    std::cerr << ia.what() << "\n";
+	    //std::cerr << ia.what() << "\n";
     }
 };
 
@@ -44,7 +48,7 @@ int parseInputArgs(int argc, char **argv, std::string& directory,
 {
     bool printUsage = false;
     // Parse and validate command line input arguments
-    if (argc <= 3) 
+    if (argc <= 2) 
     {
         printUsage = true;
     }

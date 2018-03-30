@@ -43,3 +43,9 @@ Anqi Xu, Chatavut Viriyasuthee, Ioannis Rekleitis. Efficient complete coverage o
 * When refering to Multirobot systems refer to following work:
 
 Nare Karapetyan, Kelly Benson, Chris McKinney, Perouz Taslakian, Ioannis Rekleitis. Efficient Multi-Robot Coverage of a Known Environment. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017.
+
+______
+## Contact
+
+Nare Karapetyan nare@email.sc.edu
+

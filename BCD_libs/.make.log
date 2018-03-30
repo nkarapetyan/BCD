@@ -1,13 +1,13 @@
 Scanning dependencies of target Boustrophedon
 [ 25%] Building CXX object CMakeFiles/Boustrophedon.dir/src/BCD.cpp.o
 /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp: In member function ‘void BCD::buildBCD(RegionData&, ReebGraph&)’:
-/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:157:26: warning: variable ‘_e’ set but not used [-Wunused-but-set-variable]
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:163:26: warning: variable ‘_e’ set but not used [-Wunused-but-set-variable]
                      Edge _e = graph.modifyEndNodes(EDGE(iBot), _v);
                           ^
-/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:172:26: warning: variable ‘_e0’ set but not used [-Wunused-but-set-variable]
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:178:26: warning: variable ‘_e0’ set but not used [-Wunused-but-set-variable]
                      Edge _e0 = graph.modifyEndNodes(EDGE(iiBot), _v);
                           ^
-/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:256:34: warning: variable ‘_v’ set but not used [-Wunused-but-set-variable]
+/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/src/BCD.cpp:262:34: warning: variable ‘_v’ set but not used [-Wunused-but-set-variable]
          std::pair<Vertex,Vertex> _v = graph.getEndNodes(*ei);
                                   ^
 [ 50%] Building CXX object CMakeFiles/Boustrophedon.dir/src/OpenImage.cpp.o

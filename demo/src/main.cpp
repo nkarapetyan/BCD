@@ -18,8 +18,8 @@ int main(int argc, char **argv)
     }
 
 
-    ReebGraph graph;
-    RegionData data;
+    //ReebGraph graph;
+    //RegionData data;
 
 #ifdef DEBUG_BCD
     std::cerr << "BCD is starting...\n";
@@ -29,13 +29,13 @@ int main(int argc, char **argv)
 #endif
 
 
-    BCD bcd(directory, image, data, graph);
+    BCD bcd(directory, image);
     try{
-	    bcd.buildBCD(data, graph);
+	    bcd.buildBCD();
 	    QString fileName = QString::fromStdString(directory+"out_"+image);
-	    bcd.viewReebGraph(fileName, data, graph);
+	    bcd.viewReebGraph(fileName);
 	    std::cout << "\n-----------Reeb Graph Info:--------------\n";
-	    bcd.printBCDInfo(graph);
+	    bcd.printBCDInfo();
 	    std::cout << "\n-----------------------------------------\n";
     }
     catch (std::invalid_argument ia) {

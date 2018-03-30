@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b552/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b552.dir/build.make CMakeFiles/cmTC_3b552.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2ef74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ef74.dir/build.make CMakeFiles/cmTC_2ef74.dir/build
 make[1]: Entering directory '/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b552.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -g -Wall -Wno-deprecated    -o CMakeFiles/cmTC_3b552.dir/CheckSymbolExists.c.o   -c /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3b552
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b552.dir/link.txt --verbose=1
-/usr/bin/cc   -g -Wall -Wno-deprecated     CMakeFiles/cmTC_3b552.dir/CheckSymbolExists.c.o  -o cmTC_3b552 -rdynamic 
-CMakeFiles/cmTC_3b552.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_2ef74.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -g -Wall -Wno-deprecated    -o CMakeFiles/cmTC_2ef74.dir/CheckSymbolExists.c.o   -c /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ef74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ef74.dir/link.txt --verbose=1
+/usr/bin/cc   -g -Wall -Wno-deprecated     CMakeFiles/cmTC_2ef74.dir/CheckSymbolExists.c.o  -o cmTC_2ef74 -rdynamic 
+CMakeFiles/cmTC_2ef74.dir/CheckSymbolExists.c.o: In function `main':
 /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3b552.dir/build.make:97: recipe for target 'cmTC_3b552' failed
-make[1]: *** [cmTC_3b552] Error 1
+CMakeFiles/cmTC_2ef74.dir/build.make:97: recipe for target 'cmTC_2ef74' failed
+make[1]: *** [cmTC_2ef74] Error 1
 make[1]: Leaving directory '/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3b552/fast' failed
-make: *** [cmTC_3b552/fast] Error 2
+Makefile:126: recipe for target 'cmTC_2ef74/fast' failed
+make: *** [cmTC_2ef74/fast] Error 2
 
 File /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ee12/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0ee12.dir/build.make CMakeFiles/cmTC_0ee12.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_53f5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53f5a.dir/build.make CMakeFiles/cmTC_53f5a.dir/build
 make[1]: Entering directory '/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ee12.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -g -Wall -Wno-deprecated -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0ee12.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0ee12
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ee12.dir/link.txt --verbose=1
-/usr/bin/cc   -g -Wall -Wno-deprecated -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0ee12.dir/CheckFunctionExists.c.o  -o cmTC_0ee12 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_53f5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -Wall -Wno-deprecated -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_53f5a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53f5a.dir/link.txt --verbose=1
+/usr/bin/cc   -g -Wall -Wno-deprecated -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_53f5a.dir/CheckFunctionExists.c.o  -o cmTC_53f5a -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0ee12.dir/build.make:97: recipe for target 'cmTC_0ee12' failed
-make[1]: *** [cmTC_0ee12] Error 1
+CMakeFiles/cmTC_53f5a.dir/build.make:97: recipe for target 'cmTC_53f5a' failed
+make[1]: *** [cmTC_53f5a] Error 1
 make[1]: Leaving directory '/home/nare/Dropbox/WorkingDir/open_sourceing/open/BCD_libs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0ee12/fast' failed
-make: *** [cmTC_0ee12/fast] Error 2
+Makefile:126: recipe for target 'cmTC_53f5a/fast' failed
+make: *** [cmTC_53f5a/fast] Error 2
 
 

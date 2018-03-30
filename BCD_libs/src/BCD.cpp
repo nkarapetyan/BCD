@@ -20,6 +20,8 @@ BCD::BCD() {};
 **/
 BCD::BCD(string directory, string fileName)
 {
+    data = imageLoader.open(directory, fileName);
+    buildBCD();
 //TODO: implement independent constructor based on input data
 }
 
@@ -42,6 +44,10 @@ BCD::BCD(string directory, string fileName, RegionData& data, ReebGraph& graph)
 BCD::~BCD() {};
 
 
+void BCD::buildBCD()
+{
+buildBCD(data, graph);
+}
 /*************************************************************************
  * Author: Patrick Virie
  *
@@ -310,6 +316,16 @@ void BCD::buildBCD(RegionData& data, ReebGraph& graph)
 };
 
 
+
+/*************************************************************************
+ * viewReebGraph(QString fileName)
+ * an interface that creates ReebGraph and saves it as an image in fileName
+**/
+void BCD::viewReebGraph(QString fileName){
+
+  viewReebGraph(fileName, data, graph);
+}
+
 /*************************************************************************
  * Function 'viewReebGraph(QString fileName)'
  *
@@ -337,6 +353,15 @@ void BCD::viewReebGraph(QString fileName, RegionData data, ReebGraph graph)
     placeHolder.saveImageBuffer(fileName);
 };
 
+/*************************************************************************
+ * Function 'printBCDInfo()'
+ *
+ * Inteface for printing the BCD ReebGraph info
+**/
+void BCD::printBCDInfo()
+{
+    printBCDInfo(graph);
+}
 
 /*************************************************************************
  * Function 'printBCDInfo()'

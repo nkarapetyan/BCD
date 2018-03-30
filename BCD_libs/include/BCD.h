@@ -24,6 +24,11 @@ public:
     BCD(string directory, string fileName, RegionData& data, ReebGraph& graph);
     ~BCD(); 
 
+    void buildBCD();
+    void viewReebGraph(QString fileName);
+    void printBCDInfo();
+
+private:
     void buildBCD(RegionData& data, ReebGraph& graph)
         throw (const std::string&);
     void viewReebGraph(QString fileName, RegionData data, ReebGraph graph);
@@ -32,6 +37,8 @@ public:
 private:
 
     OpenImage imageLoader;
+    RegionData data; //FIXME
+    ReebGraph graph;
 
     // Constants
     const static unsigned char BLACK = 0;

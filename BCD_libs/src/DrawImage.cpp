@@ -92,17 +92,17 @@ void DrawImage::setImageBuffer(cv::Mat* const source)
         switch(source->channels())
         {
             case 1:
-                cv::cvtColor(*source, matBuffer, CV_GRAY2RGB);
+                cv::cvtColor(*source, matBuffer, cv::COLOR_GRAY2RGB);
                 imgFormat = QImage::Format_RGB888;
                 break;
 
             case 3:
-                cv::cvtColor(*source, matBuffer, CV_BGR2RGB);
+                cv::cvtColor(*source, matBuffer, cv::COLOR_BGR2RGB);
                 imgFormat = QImage::Format_RGB888;
                 break;
 
             case 4:
-                cv::cvtColor(*source, matBuffer, CV_BGR2RGB);
+                cv::cvtColor(*source, matBuffer, cv::COLOR_BGR2RGB);
                 imgFormat = QImage::Format_ARGB32;
                 break;
 

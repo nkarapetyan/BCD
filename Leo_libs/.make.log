@@ -1,6 +1,0 @@
-Scanning dependencies of target Leo
-[ 25%] Building CXX object CMakeFiles/Leo.dir/src/Point2D.cpp.o
-[ 50%] Building CXX object CMakeFiles/Leo.dir/src/ReebGraph.cpp.o
-[ 75%] Building CXX object CMakeFiles/Leo.dir/src/RegionData.cpp.o
-[100%] Linking CXX shared library libLeo.so
-[100%] Built target Leo

@@ -96,7 +96,8 @@ public:
     double topLeftWorldLatitude;
     double topLeftWorldLongitude;
 
-    const static float INVALID_DEGREE_VALUE = 361.0;
+    //const static float INVALID_DEGREE_VALUE = 361.0;
+    static constexpr float INVALID_DEGREE_VALUE = 361.0;
 };
 
 

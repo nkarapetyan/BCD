@@ -1,6 +1,6 @@
 /usr/local/lib/Leo/libLeo.so
-/usr/local/include/Leo/RegionData.h
-/usr/local/include/Leo/Point2D.h
 /usr/local/include/Leo/ReebGraph.h
+/usr/local/include/Leo/Point2D.h
+/usr/local/include/Leo/RegionData.h
 /usr/lib/cmake/Leo/LeoConfig.cmake
 /etc/ld.so.conf.d/Leo.conf

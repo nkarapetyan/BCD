@@ -27,9 +27,9 @@ make 2>&1 | tee .make.log
 showlogs clean cmake make
 if [ "$1" = 'install' -o "$1" = 'initins' ]; then
     echo 'Installing and configuring linker. Requires root.'
-    sudo make install 2>&1 | tee .install.log
+    make install 2>&1 | tee .install.log
     showlogs clean cmake make install
-    sudo ldconfig 2>&1 | tee .ldconfig.log
+    ldconfig 2>&1 | tee .ldconfig.log
     showlogs clean cmake make install ldconfig
 else
     echo 'NO INSTALL PERFORMED' | tee .install.log

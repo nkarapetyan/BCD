@@ -67,7 +67,7 @@ void RegionData::loadWorld(string filename) throw (const std::string&)
         }
     }
 
-    cv::Mat grey = cv::imread(mapFilename, CV_LOAD_IMAGE_GRAYSCALE);
+    cv::Mat grey = cv::imread(mapFilename, cv::IMREAD_GRAYSCALE);
     cv::threshold(grey, map, 100.0, 255, cv::THRESH_BINARY);
 
     transform = cv::getRotationMatrix2D(cv::Point2f(0,0),0,1.0);

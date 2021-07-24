@@ -45,9 +45,9 @@ showlogs clean qmake1 qmake2 qmake3 make
 
 if [ "$1" = 'install' -o "$1" = 'initins' ]; then
     echo 'Installing and configuring linker. Requires root.'
-    sudo cp demo /usr/local/bin/bcd-demo 2>&1 | tee .install.log
+    cp demo /usr/local/bin/bcd-demo 2>&1 | tee .install.log
     showlogs clean qmake1 qmake2 qmake3 make install
-    sudo ldconfig 2>&1 | tee .ldconfig.log
+    ldconfig 2>&1 | tee .ldconfig.log
     showlogs clean qmake1 qmake2 qmake3 make install ldconfig
 else
     echo 'NO INSTALL PERFORMED' | tee .install.log

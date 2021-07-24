@@ -58,11 +58,12 @@ ENDIF ()
 
 #2
 # Check and load OpenCV
-FIND_PACKAGE ( OpenCV 2.2 REQUIRED )
+FIND_PACKAGE ( OpenCV 4.5 REQUIRED )
 IF ( NOT OpenCV_FOUND )
   MESSAGE ( STATUS "OpenCV library not found." )
   MESSAGE ( FATAL_ERROR "Please install opencv v2.2+ (strongly recommended from source)." )
 ENDIF ()
+message("${OpenCV_INCLUDE_DIRS}")
 
 #3
 # Check and load Qt

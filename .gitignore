@@ -32,3 +32,8 @@
 *.app
 
 # tmp files
+**/CMakeFiles/
+*.cmake.log 
+*.make.log 
+*.install.log 
+*.ldconfig.log

@@ -37,3 +37,11 @@
 *.make.log 
 *.install.log 
 *.ldconfig.log
+CMakeCache.txt 
+Makefile 
+cmake_install.cmake
+*.qmake*.log
+
+# demo use example executable with pro from qmake
+demo
+demo.pro

@@ -1,0 +1,4 @@
+[submodule "BCD"]
+	path = BCD
+	url = https://github.com/nkarapetyan/BCD.git
+	branch = src
